@@ -1,0 +1,750 @@
+body,h2,p,h1,h6,h3,h5,ul,li{
+	margin: 0;
+	padding:0;
+}
+ul li{
+	list-style-type: none;
+}
+input{outline:none;}
+/*****************************************************************头部内容部分************************************/
+header {
+	width: 100%;
+	height: 84px;
+	background-color: #fff;
+	border-bottom: 1px solid #cfcfcf;
+}
+.header-middle{
+	margin: 0 auto;
+	width:1182px;
+	height: 84px;
+	
+}
+header a{
+	color: #000000;
+	text-decoration:none;
+}
+header .appBtn a{
+	color: #fff!important;
+}
+header img{
+	float: left;
+	width: 72px;
+	height:54px;
+	margin-right: 16px;
+	margin-top: 15px;
+}
+header h2{
+	float: left;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 84px;
+	color: #000000;
+	letter-spacing: 2px;
+
+}
+header h3:nth-last-of-type(1){
+	margin-left: 50px;
+}
+header h3{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 84px;
+	color: #000000;
+	margin-left: 430px;
+}
+
+header .appBtn{
+	background: url(../images/appBtn.png);
+	width: 147px;
+	height: 64px;
+	float: right;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	margin-top:20px;
+}
+/*****************************************************************汽车保养全能管家************************************/
+.download-tip{
+	width: 100%;
+	height:810px;
+}
+.download-img-middle{
+	width:1182px;
+	margin: 0 auto;
+}
+.download-tip h2{
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 84px;
+	color: #000000;
+	letter-spacing: 2px;
+}
+.download-tip h2 span{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 84px;
+	color: #000000;
+	letter-spacing: 4px;
+}
+.download-img{
+	width: 100%;
+	height: 480px;
+}
+.download-img img{
+	float: left;
+}
+.download-img .line{
+	float: left;
+	margin-left: 6px;
+	height: 300px;
+	width: 2px;
+	background-color: #cfcfcf;
+}
+.download-img .download-button{
+	margin-left: 30px;
+	float: left;
+}
+.download-img .download-button h3{
+	font-family: normal;
+	letter-spacing: 4px;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.download-img .download-button ul{
+	width: 300px;
+	height:110px;
+}
+.download-img .download-button li{
+	margin-bottom: 8px;
+	height:20px;
+
+}
+.download-img .download-button li h6{
+	color: #222222;
+	font-size: 16px;
+	letter-spacing: 4px;
+	line-height: 20px;
+	float: left;
+}
+.download-img .download-button li span{
+	float: left;
+	width: 2px;
+	height: 20px;
+	margin: 0 6px;
+	background-color: #cfcfcf;
+}
+.download-img .download-button li p{
+	font-size: 16px;
+	letter-spacing: 4px;
+	line-height: 20px;
+	float: left;
+	color: #555555;
+}
+.download-img .download-button div{
+	width: 160px;
+	height:40px;
+	background-color: #ffa636;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 6px;
+}
+.download-inf{
+	margin-top: 80px;
+}
+.download-inf h5{
+	font-family: normal;
+	letter-spacing: 4px;
+	font-size: 28px;
+	margin-bottom: 6px;
+}
+.download-inf .inf-span{
+	height: 6px;
+	width: 50px;
+	background-color: #cfcfcf;
+}
+.download-inf  p{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: 2px;
+}
+/*****************************************************************强大的功能特性内容部分************************************/
+
+.function-div{
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 1600px;
+}
+.function-div h1{
+	line-height: 80px;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.function-inf{
+	margin: 0 auto;
+	width:1182px;
+	height:463px;
+	margin-bottom: 10px;
+}
+.function-inf img,.function-inf .function-text{
+	float: left;
+}
+.function-inf .function-text{
+	margin-left: 15px;
+}
+.function-inf .function-text h3{
+	margin-top: 110px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.function-inf .function-text p{
+	font-size: 16px;
+	line-height: 22px;
+	color: #777777;
+}
+/*****************************************************************安装指南内容部分************************************/
+.install-content{
+	width: 100%;
+	height: 700px;
+}
+.install-content h1{
+	letter-spacing: 4px;
+	line-height: 80px;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.install-content .install-content-middle{
+	margin: 0 auto;
+	width:1182px;
+	height: 700px;
+
+}
+.install-content .phone-img{
+	margin-left: 140px;
+	float: left;
+}
+.install-content .install-app{
+	float: right;
+	margin-right: 90px;
+}
+.install-content .install-app h5{
+
+	margin-top: 60px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 10px; 
+}
+.install-content .install-app .inf-p{
+	font-size: 14px;
+	line-height: 30px;
+}
+.install-content .install-app ul{
+	width: 100%;
+	height:140px;
+}
+.install-content .install-app ul li{
+	float: left;
+	height:180px;
+	margin-left: 10px;
+}
+.install-content .install-app img{
+	width: 140px;
+	height:140px;
+}
+.install-content .install-app p{
+	font-size: 12px;
+	color: #444444;
+}
+.install-content .install-app a{
+	color: #018adb;
+}
+/*****************************************************************了解更多内容部分************************************/
+.aboutContent{
+	background-color:#f7f7f7; 
+	height: 932px;
+	width: 100%;
+}
+.about-content{
+	margin: 0 auto;
+	height: 932px;
+	width: 1349px;
+	
+}
+.about-content .rightBtn, .about-content .leftBtn{
+	margin-top: 550px;
+	height: 30px;
+	width: 30px;
+}
+.about-content .rightBtn{
+	float: right;
+}
+.about-content  .leftBtn{
+	float: left;
+	
+}
+.about-content .about-middle{
+	float: left;
+	width:1182px;
+	height: 932px;
+}
+.about-middle div{
+	margin-top: 286px;
+	float: left;
+}
+.about-middle h1{
+	letter-spacing: 10px;
+	line-height: 58px;
+	font-weight: normal;
+	font-size: 60px;
+
+}
+.about-middle h2{
+	margin-top: 18px;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 40px;
+}
+.about-middle h6{
+	margin-top: 18px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.moreBtn{
+	background: url(../images/moreBtn.png);
+	margin-top: 38px!important;
+	width: 173px;
+	height: 67px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.about-middle img{
+	margin-top: 120px;
+	float: right;
+}
+
+.about-middle .tip-div img{
+	float: none;
+	margin:0;
+}
+.about-ervice {
+	height: 490px;
+}
+.about-middle .tip-div{
+	margin: 0 auto; 
+	width: 100px;
+	height:40px;
+}
+.about-middle .tip-div div{
+	margin-top: 60px!important;
+	margin-left: 20px;
+	width:20px;
+	height:20px;
+	background-color: #fff;
+}
+.about-middle .tip-div .color-span{
+		margin-left: 40px;
+	background-color: #ffa636;
+}
+
+/*****************************************************************店铺部分************************************/
+.shop-content{
+	height:568px;
+	width: 100%;
+	background-color:#ffffff; 
+}
+.shop-content .shop-middle{
+	height:568px;
+	width: 100%;
+}
+.shop-content .storeImg{
+	height:568px;
+	width: 50%;
+	float: left;
+}
+.shop-middle  div{
+	float: right;
+	width: 50%;
+}
+.shop-content h3{
+	font-weight:normal;
+	margin-left:30px;
+	margin-top: 46px;
+	font-size: 24px;
+	color: #37485c;
+}
+ .shop-content span{
+ 	margin-left:30px;
+ 	display: block;
+ 	margin-top: 8px;
+ 	width: 24px;
+ 	height: 4px;
+ 	background-color: #ffa636;
+ }
+  .shop-content p{
+ 	margin-right:50px;
+  	margin-left:30px;
+  	font-size:14px;
+ 	margin-top: 30px;
+ 	font-size: 16px;
+ 	color: #778089;
+ }
+ .shop-middle div img{
+ 	width: 32%;
+ 	margin-top:60px;
+ 	margin-left: 2px;
+ }
+
+
+ /*****************************************************************联系我们车的图像内容部分************************************/
+ .car-content,.car-content img{
+ 	margin: 0 auto;
+	width:100%;
+	height:560px;
+ }
+
+
+ /*****************************************************************特色功能内容部分************************************/
+ .feature-content,.feature-content img{
+ 	margin: 0 auto;
+	width:100%;
+	height:440px;
+ } 
+ .feature-content h3,.feature-content h2{
+ 	width: 100%;
+ 	position: absolute;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	color: #fff;
+ }
+ .feature-content h3{
+ 		font-size: 24px;
+ 	 margin-top: 30px;
+ }
+.feature-content h2{
+	font-weight: normal;
+		font-size: 20px;
+ 	 margin-top: 60px;
+ }
+/*****************************************************************地推风采部分************************************/
+.push-content{
+	width: 100%;
+	height:380px;
+}
+ .push-content h3,.push-content h2{
+	width: 100%;
+ 	text-align: center;
+ 	line-height: 30px;
+}
+.push-content  h3{
+ 		font-size: 24px;
+ 	 margin-top: 30px;
+ }
+.push-content  h2{
+	font-weight: normal;
+		font-size: 20px;
+ 	 margin-top: 10px;
+ }
+ .push-content  ul{
+ 	margin-top: 10px;
+ }
+ .push-content  ul li{
+ 	width: 25%;
+ 	float: left;
+ 	margin: 0 5%;	
+ }
+ .push-content  ul li:nth-last-of-type(1){
+ 	margin-left: 0;	
+ }
+ .push-content  ul li:nth-last-of-type(3){
+ 	margin-left: 7%;
+margin-right: 0;	
+ }
+ .push-content  ul li img{
+ 	width: 100%;
+ 
+ }
+ /*****************************************************************车的图像内容部分************************************/
+ .vehicle-content,.vehicle-content img{
+ 	margin: 0 auto;
+	width:100%;
+	height:460px;
+ }
+.video-btn{
+      position: fixed;
+      top:0;
+      left: 40%;
+      display: none;
+      z-index: 101;
+    }
+    .video-btn #video1{
+    	margin-top: 16%;
+    	height: 560px;
+    }
+	.video-shut{
+  background:rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+   filter:Alpha(opacity=50); background:#000;
+      height:80px;
+      width:80px;
+      font-size:20px;
+      color:pink;
+      float:right;
+      color: #fff;
+      text-align: center;
+     line-height: 80px;
+      padding-top:30px;
+    }
+    #shadow{
+     position: fixed;
+     opacity: 0.5;
+     filter:alpha(opacity=50);
+     bottom:0;
+     left: 0;
+     right: 0;
+     top: 0;
+     background:black;
+     z-index: 100;
+     display: none;
+   }
+  
+ /*****************************************************************联系我们内容部分************************************/
+ .contact-content{
+ 	height: 800px;
+	width:100%;
+ 	background-color:#f7f7f7; 
+ }
+ .contact-middle{
+ 	width:1182px;
+ 	margin: 0 auto;
+ 	height: 800px;
+ }
+ .contact-content img{
+ 	padding-top: 70px;
+ 	display: block;
+ 	margin: 0 auto;
+	width:1182px;
+	height: 10px;
+ }
+ .contact-content h3{
+ 	color: #5d5d5d;
+	margin-top: 60px;
+	font-size:26px;
+	line-height:30px;
+ }
+.contact-content h3 span{
+	font-size: 20px;
+	
+	color: #7b7b7b;
+	font-weight: normal!important;
+	margin-left: 8px;
+}
+.contact-content h4{
+	color: #7b7b7b;
+	font-size:24px;
+	font-weight: normal;
+	margin: 30px 0;
+}
+.contact-content ul{
+	float: left;
+}
+.contact-content ul p{
+	margin-bottom: 40px;
+	color: #979696;
+	font-size:16px;
+	font-weight: normal;
+	line-height: 32px;
+}
+.contact-content ul .infP{
+	margin:0 0 40px 0;
+}
+.contact-content ul li{
+	width: 700px;
+	height:20px;
+	margin-bottom: 20px;
+}
+.ride-li{
+	margin-bottom: 10px!important;
+}
+.contact-content ul h6,.contact-content ul span{
+	line-height: 20px;
+	font-size: 16px;
+	float: left;
+
+}
+.contact-content ul h6{
+	color: #434141;
+}
+.contact-content ul span{
+	letter-spacing: 1px;
+	margin-left: 2px;
+	color: #778089;
+}
+.contact-content .qrCode{
+	float: left;
+	padding:0!important;
+	width: 140px!important;
+	height:140px!important;
+	margin:0!important;
+}
+.contact-content  h5{
+	float: left;
+	color: #444444;
+	font-size: 16px;
+	margin-left: 30px;
+	line-height: 140px;
+	letter-spacing: 1px;
+	}
+.contact-content  form{
+	float: right;
+	width: 480px;
+	height:466px;
+}
+.contact-content input{
+	border: 1px solid #e8e8e8;
+	padding:0 0 0 30px;
+	border-radius: 20px;
+	height:46px;
+	background-color: #e8e8e8;
+	width: 480px;
+	margin-bottom: 40px;
+	line-height: 46px;
+}
+.contact-content .input-textarea{
+	line-height: 180px;
+	height:180px!important;
+
+}
+.contact-content .saveBtn{
+	width: 160px;
+	height:46px;
+	border-radius: 20px;
+	background-color: #ffa636;
+	color: #fff;
+	text-align: center;
+	line-height: 46px;
+	font-size: 16px;
+	}
+ /*****************************************************************联系内容部分************************************/
+
+
+
+.touch-content{
+	width: 100%;
+	height: 422px;
+	background-color: #fff;
+}
+.touch-middle{
+	margin: 0 auto;
+	width:1182px;
+	height: 422px;
+}
+.touch-middle h2{
+	margin-left: 26px;
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 75px;
+	color: #ffa636;
+}
+.touch-middle div{
+	float: left;
+}
+.touch-middle .touch-information{
+	margin-top: 64px;
+}
+.touch-middle .touch-information .email{
+	font-size: 14px;
+	color: #a3a3a3;
+	padding-left: 16px;
+	line-height: 36px;
+	margin-left: 56px;
+	border-radius: 12px;
+	width: 358px;
+	height: 36px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	background-color: #e8e8e8;
+	float: left;
+}
+.touch-middle .touch-information .send{
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 36px;
+	border-radius: 16px;
+	float: left;
+	margin-left: 16px;
+	width: 106px;
+	height: 36px;
+	background-color: #ffa636;
+}
+.touch-middle .touch-information h6{
+	padding-left: 56px;
+	margin-top: 62px;
+	font-size: 16px;
+	color: #778089;
+	font-weight: normal;
+}
+.touch-middle  .touch{
+	margin-top: 64px;
+	float: left;
+	margin-left:52px;
+}
+.touch-middle  .touch p{
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #778089;
+}
+.touch-middle .touch p:first-child{
+	margin-bottom: 24px;
+}
+.qrCode{
+	margin-left: 18px;
+	margin-top: 42px;
+}
+.qrCode p{
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #778089;
+}
+ /*****************************************************************底部内容部分************************************/
+ .footer{
+ 	width: 100%;
+ 	height: 76px;
+ 	background-color: #f7f7f7;
+ }
+ .footer .footer-middle{
+ 	margin: 0 auto;
+	width:1182px;
+	height: 76px;
+ }
+
+ .footer-middle p{
+ 	font-size: 14px;
+ 	line-height: 76px;
+ 	float: left;
+ }
+ .footer-middle p span{
+ 	color: #27c5ff;
+ }
+ .footer-middle  div{
+ 	float: right;
+ 	width: 186px;
+ 	margin-top: 24px;
+ }
+ .footer-middle  div img{
+ 	margin-left: 26px;
+ }
+ .footer-middle  div img:first-child{
+ 	margin-left: 0px;
+ }
+ 
