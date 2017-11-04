@@ -267,94 +267,11 @@ header .appBtn{
 	color: #018adb;
 }
 /*****************************************************************了解更多内容部分************************************/
-.aboutContent{
-	background-color:#f7f7f7; 
-	height: 932px;
-	width: 100%;
-}
 .about-content{
-	margin: 0 auto;
-	height: 932px;
-	width: 1349px;
+	// background-color:#f7f7f7; 
+	height: 650px;
+	width: 100%;
 	
-}
-.about-content .rightBtn, .about-content .leftBtn{
-	margin-top: 550px;
-	height: 30px;
-	width: 30px;
-}
-.about-content .rightBtn{
-	float: right;
-}
-.about-content  .leftBtn{
-	float: left;
-	
-}
-.about-content .about-middle{
-	float: left;
-	width:1182px;
-	height: 932px;
-}
-.about-middle div{
-	margin-top: 286px;
-	float: left;
-}
-.about-middle h1{
-	letter-spacing: 10px;
-	line-height: 58px;
-	font-weight: normal;
-	font-size: 60px;
-
-}
-.about-middle h2{
-	margin-top: 18px;
-	font-weight: normal;
-	font-size: 42px;
-	line-height: 40px;
-}
-.about-middle h6{
-	margin-top: 18px;
-	font-weight: normal;
-	font-size: 16px;
-}
-.moreBtn{
-	background: url(../images/moreBtn.png);
-	margin-top: 38px!important;
-	width: 173px;
-	height: 67px;
-	text-align: center;
-	color: #fff;
-	font-size: 16px;
-	font-weight: bold;
-	line-height: 40px;
-}
-.about-middle img{
-	margin-top: 120px;
-	float: right;
-}
-
-.about-middle .tip-div img{
-	float: none;
-	margin:0;
-}
-.about-ervice {
-	height: 490px;
-}
-.about-middle .tip-div{
-	margin: 0 auto; 
-	width: 100px;
-	height:40px;
-}
-.about-middle .tip-div div{
-	margin-top: 60px!important;
-	margin-left: 20px;
-	width:20px;
-	height:20px;
-	background-color: #fff;
-}
-.about-middle .tip-div .color-span{
-		margin-left: 40px;
-	background-color: #ffa636;
 }
 
 /*****************************************************************店铺部分************************************/
@@ -461,7 +378,8 @@ header .appBtn{
  .push-content  ul li{
  	width: 25%;
  	float: left;
- 	margin: 0 5%;	
+ 	margin: 0 5%;
+ 	position:relative;	
  }
  .push-content  ul li:nth-last-of-type(1){
  	margin-left: 0;	
@@ -470,9 +388,44 @@ header .appBtn{
  	margin-left: 7%;
 margin-right: 0;	
  }
- .push-content  ul li img{
- 	width: 100%;
+ // .push-content  ul li img{
+ // 	width: 100%;
  
+ // }
+ .push-content ul li img{
+ 	width: 100%;
+ }
+ .push-content ul li p{
+ 	font-size: 16px;
+ 	position:absolute;
+ 	z-indent:2;
+ 	left:15px;
+ 	top:46%;
+ 	color: #fff;
+ }
+ .push-content ul li h6{
+ 	font-weight:normal;
+ 	letter-spacing: 1px;
+ 	font-size: 18px;
+ 	position:absolute;
+ 	z-indent:2;
+ 	left:15px;
+ 	top:58%;
+ 	color: #fff;
+ }
+ .push-content ul li div{
+ 	text-align: center;
+ 	background-color: #3494ff;
+ 	font-size: 16px;
+ 	position:absolute;
+ 	z-indent:2;
+ 	left:15px;
+ 	top:74%;
+ 	border-radius: 22px;
+ 	width: 130px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	color: #fff;
  }
  /*****************************************************************车的图像内容部分************************************/
  .vehicle-content,.vehicle-content img{
@@ -492,17 +445,17 @@ margin-right: 0;
     	height: 560px;
     }
 	.video-shut{
-  background:rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
-   filter:Alpha(opacity=50); background:#000;
-      height:80px;
-      width:80px;
-      font-size:20px;
-      color:pink;
-      float:right;
-      color: #fff;
-      text-align: center;
-     line-height: 80px;
-      padding-top:30px;
+ margin-right:100px;
+ z-index:888;
+ height: 30px;
+ width: 30px;
+ font-size:20px;
+ color:pink;
+ float:right;
+ color: #fff;
+ text-align: center;
+ line-height: 80px;
+ padding-top:30px;
     }
     #shadow{
      position: fixed;
@@ -635,8 +588,6 @@ margin-right: 0;
 	font-size: 16px;
 	}
  /*****************************************************************联系内容部分************************************/
-
-
 
 .touch-content{
 	width: 100%;

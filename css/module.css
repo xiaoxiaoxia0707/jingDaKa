@@ -1,0 +1,15 @@
+  .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+    }
+    .swiper-container .swiper-slide {
+        height: 600px;
+        line-height: 600px;
+    }
+    

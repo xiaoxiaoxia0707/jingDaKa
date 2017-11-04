@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>金大咖</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
 </head>
 
 <body>
@@ -20,26 +22,21 @@
             </div>
         </header>
         <div class="content">
-            <div class="aboutContent">
             <div class="about-content">
-                 <img src="images/left-icon.png" class="leftBtn">
-                <div class="about-middle">
-                    <div class="about-ervice">
-                        <h1>一站式服务</h1>
-                        <h2>One-stop service</h2>
-                        <h6>汽车养护一站式服务平台，从洗车开始因为有我，开始变的简单。</h6>
-                         <div class="moreBtn">了解更多</div>
-                    </div>
-                    <img src="images/phone.png">
-                    <div style="" class="tip-div">
-                        <div class="color-span"></div>
-                        <div></div>
-                  </div>
-                        
-                </div>
-                 <img src="images/right-icon.png" class="rightBtn">
+            <!-- Swiper -->
+                 <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/one.jpg" style="width: 100%;"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
             </div>
-            </div>
+        
             <div class="shop-content">
                 <div class="shop-middle">
                     <img src="images/store1.png" class="storeImg">
@@ -69,7 +66,7 @@
                 
             </div>
             <div id="shadow">
-                <div id="video-shut" class="video-shut">x</div>
+                <img id="video-shut" class="video-shut" src="images/close.png">
             </div>
            
             <div class="push-content">
@@ -77,13 +74,23 @@
                 <h2>Extension Style</h2>
                 <ul>
                     <li>
-                        <img src="images/image-3.png" alt="地推风采的第一张图片">
+                        <img src="images/img-33.png" alt="地推风采的第一张图片">
+                        <p>2016.7.20</p>
+                        <h6>地推扫码就送精彩活动</h6>
+                        <div>了解更多</div>
+
                     </li>
                     <li>
-                       <img src="images/image-2.png" alt="地推风采的第二张图片">
+                       <img src="images/img-22.png" alt="地推风采的第二张图片">
+                       <p>2016.7.20</p>
+                        <h6>地推扫码就送精彩活动</h6>
+                        <div>了解更多</div>
                     </li>
                     <li>
-                        <img src="images/image-1.png" alt="地推风采的第三张图片">
+                        <img src="images/img-11.png" alt="地推风采的第三张图片">
+                         <p>2016.7.20</p>
+                        <h6>地推扫码就送精彩活动</h6>
+                        <div>了解更多</div>
                     </li>
                 </ul>
              </div>
@@ -122,6 +129,16 @@
             </div>
     </wrap>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+     <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        autoHeight: true, //enable auto height
+    });
+    </script>
 <script type="text/javascript">
           var obtn=document.getElementById('video');
   var ovideo=document.getElementById('video-btn');

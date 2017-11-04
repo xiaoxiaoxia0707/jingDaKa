@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>金大咖</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+     <link rel="stylesheet" type="text/css" href="css/swiper.css">
 </head>
 
 <body>
@@ -24,7 +26,17 @@
              <div class="download-img-middle">
                 <h2>金大咖&nbsp;&nbsp;-&nbsp;&nbsp;<span>汽车保养全能管家</span></h2>
                 <div class="download-img">
-                    <img src="images/bg-4.png" alt="下载的图片">
+                    <!-- <img src="images/bg-4.png" alt="下载的图片"> -->
+                     <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/oneMin.png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
                     <span class="line"></span>
                     <div class="download-button">
                         <h3>软件下载</h3>
@@ -134,5 +146,15 @@
                 </div>
             </div>
     </wrap>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        autoHeight: true, //enable auto height
+    });
+    </script>
 </body>
 </html>
