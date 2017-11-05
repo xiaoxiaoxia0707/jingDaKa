@@ -97,13 +97,13 @@ header .appBtn{
 }
 .download-img .line{
 	float: left;
-	margin-left: 6px;
+	margin-left: 80px;
 	height: 300px;
 	width: 2px;
 	background-color: #cfcfcf;
 }
 .download-img .download-button{
-	margin-left: 30px;
+	margin-left: 100px;
 	float: left;
 }
 .download-img .download-button h3{
@@ -269,7 +269,7 @@ header .appBtn{
 /*****************************************************************了解更多内容部分************************************/
 .about-content{
 	// background-color:#f7f7f7; 
-	height: 650px;
+	height: 700px;
 	width: 100%;
 	
 }
