@@ -5,7 +5,8 @@ body,h2,p,h1,h6,h3,h5,ul,li{
 ul li{
 	list-style-type: none;
 }
-input{outline:none;}
+input,textarea{outline:none;}
+textarea{resize:none;}//禁止拉伸
 /*****************************************************************头部内容部分************************************/
 header {
 	width: 100%;
@@ -525,9 +526,10 @@ margin-right: 0;
 	height:20px;
 	margin-bottom: 20px;
 }
-.ride-li{
-	margin-bottom: 10px!important;
+.contact-content ul li:nth-last-of-type(1){
+margin-bottom: 80px!important;
 }
+
 .contact-content ul h6,.contact-content ul span{
 	line-height: 20px;
 	font-size: 16px;
@@ -562,7 +564,9 @@ margin-right: 0;
 	width: 480px;
 	height:466px;
 }
-.contact-content input{
+.contact-content input,textarea{
+	font-size: 14px;
+	font-family: "Adobe 黑体 ";
 	border: 1px solid #e8e8e8;
 	padding:0 0 0 30px;
 	border-radius: 20px;
@@ -573,7 +577,7 @@ margin-right: 0;
 	line-height: 46px;
 }
 .contact-content .input-textarea{
-	line-height: 180px;
+	line-height: 26px;
 	height:180px!important;
 
 }
